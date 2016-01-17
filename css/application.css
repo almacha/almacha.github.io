@@ -1,183 +1,138 @@
-/* line 19, /home/fsp/fsp/app/assets/stylesheets/mail.scss */
-button.submit_mail {
-  margin-left: 15px;
-}
-
-/* line 8, /home/fsp/fsp/app/assets/stylesheets/footer.scss */
-div.general_social_footer {
-  height: 130px;
-  width: 100%;
-  text-align: center;
-}
-
-/* line 23, /home/fsp/fsp/app/assets/stylesheets/footer.scss */
-img.general_social_footer {
-  margin-left: 7px;
-  margin-right: 7px;
-  margin-top: 45px;
-  margin-bottom: 5px;
-  height: 44px;
-}
-
-/* line 5, /home/fsp/fsp/app/assets/stylesheets/application.scss */
 body {
-  font-family: Arial;
-  background-color: #060524;
   color: white;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-/* line 16, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-div.logo {
-  float: left;
-  width: auto;
-}
-
-/* line 25, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-div.menu {
-  float: right;
-  max-height: 100%;
-}
-
-/* line 30, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-div.container {
-  width: 100%;
-  margin: 0px auto;
-}
-
-/* line 35, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-ul.menu {
-  float: right;
-  margin: 0px 0px 0px 0px;
-  padding: 30px 0px 0px 0px;
-  list-style: none;
-  margin-right: 10px;
-}
-
-/* line 44, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-li.menu {
-  float: left;
-  margin-right: 20px;
-}
-
-a {
-  text-decoration: none;
-}
-
-/* line 49, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-a.menu {
-  color: white;
-  display: block;
-}
-
-/* line 59, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-div.header {
-  font-size: 20px;
-  height: 100px;
-  width: 100%;
-  background: black;
-}
-
-/* line 66, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-img.logo_header {
-  height: 75px;
-  width: auto;
-  margin-top: 10px;
-  margin-left: 30px;
-  float: left;
-  vertical-align: baseline;
-}
-
-/* line 75, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-div.fsp_header_title {
-  margin-top: 30px;
-  margin-left: 7px;
-  font-size: 20px;
-  font-style: bold;
-  color: white;
-  display: inline-block;
-}
-
-/* line 84, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-h1 {
-  text-transform: uppercase;
-  font-size: 40px;
-  text-shadow: 12px 12px 5px #030314;
-}
-
-/* line 90, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-h2 {
-  margin-top: 20px;
-  font-size: 30px;
-  margin-bottom: 50px;
-  text-shadow: 12px 12px 5px #030314;
-}
-
-/* line 97, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-button {
-  min-width: 120px;
-  border-radius: 7px;
-  font-weight: normal;
-  font-size: 20px;
   background: #060524;
-  color: white;
-  border: solid 3px white;
-  height: 61px;
-  box-sizing: border-box;
-  box-shadow: 10px 10px 0px 2px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
+  text-align: center;
+  font-family: Arial;
+  margin: 0;
 }
 
-/* line 111, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-button:active, button:hover {
-  background: white;
-  color: #060524;
+h1 {
+  font-size: 40px;
+  text-shadow: 10px 10px 5px green;
 }
 
-iframe.header_frame {
-  width: 100%;
-  height: 100%;
-}
-
-
-li {
-  color: grey;
-}
-
-h1.welcome {
-  margin-top: 90px;
+h2 {
+  font-size: 30px;
+  text-shadow: 10px 10px 5px green;
 }
 
 p {
-  margin-left: 320px;
-  margin-right: 320px;
-  font-size: 19px;
+  font-size: 20px;
+  margin: 10px auto 10px auto;
+  width: 65%;
+}
+
+p.para1 {
   text-align: justify;
+  border: solid 3px yellow;
+  padding: 5px 5px 5px 5px;
 }
 
-p.end_manifesto {
-	text-align: center;
-	margin-bottom: 30px;
-}
-
-div.CTA_area {
-  margin-bottom: 70px;
-}
-
-
-img.photo {
-  height: 170px;
-  margin-left: 20px;
-  margin-right: 20px;
-  border: solid 3px white;
-}
-
-div.button_container {
-  padding-top: 30px;
+p.para2 {
+  font-size: 25px;
+  border: solid 3px red;
+  width: auto;
+  display: inline-block;
 }
 
 span.join_us {
   font-weight: bold;
+  color: lime;
+  font-size: 30px;
+}
+
+div.footer {
+  margin: 50px 0 0 0;
+}
+
+img.icon {
+  height: 50px;
+  margin: 0 10px 0 10px;
+}
+
+div.footer_text {
+  font-size: 25px;
+  margin: 20px 0 0 0;
+}
+
+span.coeur {
+  color: red;
+}
+
+button {
+  background: none;
+  color: white;
+  font-size: 30px;
+  border: solid 3px white;
+  border-radius: 30px 0px 30px 0px;
+  margin: 20px 0 20px 0;
+  padding: 30px;
+  box-shadow: 20px 10px 0px 0px darkgreen;
+  cursor: pointer;
+}
+
+button:hover, button:active {
+  background: white;
+  color: #060524;
+  box-shadow: 20px 10px 0px 0px lime;
+}
+
+img.photo {
+  height: 200px;
+  margin: 20px;
+  border: solid 3px orange;
+}
+
+img.photo:hover {
+  border: solid 3px yellow;
+}
+
+div.menu {
+  height: 100px;
+  //background: black;
+  font-size: 25px;
+}
+
+div.menu_gauche {
+  float: left;
+  //background: green;
+}
+
+div.menu_droite {
+  float: right;
+  //background: red;
+}
+
+img.logo {
+  height: 100px;
+  vertical-align: top;
+  //background: magenta;
+}
+
+div.menu_title {
+  display: inline-block;
+  margin: 30px 0 0 20px;
+}
+
+ul.menu {
+  list-style: none;
+  color: grey;
+}
+
+li.menu {
+  float: left;
+  margin: 5px 10px 0 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lime;
+}
+
+a:active {
+  color: yellow;
 }
