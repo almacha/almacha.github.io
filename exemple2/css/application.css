@@ -1,0 +1,227 @@
+body {
+  font-family: 'Bree Serif';
+  background: #060524 url("../images/fond.jpg") no-repeat fixed bottom center;
+  background-size: cover;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body.landing {
+  background: black;
+}
+
+/* line 19, /home/fsp/fsp/app/assets/stylesheets/mail.scss */
+button.submit_mail {
+  margin-left: 15px;
+}
+
+/* line 8, /home/fsp/fsp/app/assets/stylesheets/footer.scss */
+div.general_social_footer {
+  height: 130px;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 23, /home/fsp/fsp/app/assets/stylesheets/footer.scss */
+img.general_social_footer {
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-top: 45px;
+  margin-bottom: 5px;
+  height: 44px;
+}
+
+/* line 16, /home/fsp/fsp/app/assets/stylesheets/application.scss */
+div.logo {
+  float: left;
+  width: auto;
+}
+
+/* line 25, /home/fsp/fsp/app/assets/stylesheets/application.scss */
+div.menu {
+  float: right;
+  max-height: 100%;
+}
+
+/* line 30, /home/fsp/fsp/app/assets/stylesheets/application.scss */
+div.container {
+  width: 100%;
+  margin: 0px auto;
+}
+
+/* line 35, /home/fsp/fsp/app/assets/stylesheets/application.scss */
+ul.menu {
+  float: right;
+  margin: 0px 0px 0px 0px;
+  padding: 30px 0px 0px 0px;
+  list-style: none;
+  margin-right: 10px;
+}
+
+/* line 44, /home/fsp/fsp/app/assets/stylesheets/application.scss */
+li.menu {
+  float: left;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* line 49, /home/fsp/fsp/app/assets/stylesheets/application.scss */
+a.menu {
+  color: white;
+  display: block;
+}
+
+/* line 59, /home/fsp/fsp/app/assets/stylesheets/application.scss */
+div.header {
+  font-size: 20px;
+  height: 100px;
+  width: 100%;
+}
+
+/* line 66, /home/fsp/fsp/app/assets/stylesheets/application.scss */
+img.logo_header {
+  height: 75px;
+  width: auto;
+  margin-top: 10px;
+  margin-left: 30px;
+  float: left;
+  vertical-align: baseline;
+}
+
+/* line 75, /home/fsp/fsp/app/assets/stylesheets/application.scss */
+div.fsp_header_title {
+  margin-top: 30px;
+  margin-left: 7px;
+  font-size: 20px;
+  font-style: bold;
+  color: white;
+  display: inline-block;
+}
+
+/* line 84, /home/fsp/fsp/app/assets/stylesheets/application.scss */
+h1 {
+  text-transform: uppercase;
+  font-size: 40px;
+  text-shadow: 12px 12px 5px #030314;
+}
+
+/* line 90, /home/fsp/fsp/app/assets/stylesheets/application.scss */
+h2 {
+  margin-top: 20px;
+  font-size: 30px;
+  margin-bottom: 50px;
+  text-shadow: 12px 12px 5px #030314;
+}
+
+/* line 97, /home/fsp/fsp/app/assets/stylesheets/application.scss */
+button {
+  min-width: 120px;
+  border-radius: 7px;
+  font-weight: normal;
+  font-size: 20px;
+  background: #060524;
+  color: white;
+  border: solid 3px white;
+  height: 61px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 0px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+/* line 111, /home/fsp/fsp/app/assets/stylesheets/application.scss */
+button:active, button:hover {
+  background: white;
+  color: #060524;
+}
+
+iframe.header_frame {
+  width: 100%;
+  height: 100%;
+}
+
+
+li {
+  color: grey;
+}
+
+h1.welcome {
+  margin-top: 90px;
+}
+
+p {
+  margin-left: 320px;
+  margin-right: 320px;
+  font-size: 19px;
+  text-align: justify;
+}
+
+p.end_manifesto {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+div.CTA_area {
+  margin-bottom: 70px;
+}
+
+
+img.photo {
+  height: 170px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: solid 3px white;
+}
+
+div.button_container {
+  padding-top: 30px;
+}
+
+span.join_us {
+  font-weight: bold;
+}
+
+div.member_frame {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+img.member_photo {
+  border: 2px white solid;
+  height:200px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+div.name {
+  font-weight: bold;
+  margin: 0;
+}
+
+div.role {
+  font-style: italic;
+  margin: 0 0 20px 0;
+}
+
+video.video_feu {
+  height: 100%;
+  width: 100%;
+  z-index: -100;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+div.filter {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  z-index: -50;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
