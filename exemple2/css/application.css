@@ -254,3 +254,13 @@ a:active {
   border: solid 1px white;
   padding: 10px;
 }
+
+iframe.header {
+  width: 100%;
+  border: 0;
+  height: 100px;
+}
+
+body.header {
+  background: none;
+}
