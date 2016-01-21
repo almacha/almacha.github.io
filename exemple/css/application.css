@@ -29,48 +29,48 @@ body {
   text-align: center;
 }
 
-/* line 16, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-div.logo {
-  float: left;
-  width: auto;
-}
-
-/* line 25, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-div.menu {
-  float: right;
-  max-height: 100%;
-}
-
-/* line 30, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-div.container {
-  width: 100%;
-  margin: 0px auto;
-}
-
-/* line 35, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-ul.menu {
-  float: right;
-  margin: 0px 0px 0px 0px;
-  padding: 30px 0px 0px 0px;
-  list-style: none;
-  margin-right: 10px;
-}
-
-/* line 44, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-li.menu {
-  float: left;
-  margin-right: 20px;
-}
 
 a {
   text-decoration: none;
+  color: white;
 }
 
-/* line 49, /home/fsp/fsp/app/assets/stylesheets/application.scss */
-a.menu {
-  color: white;
-  display: block;
+
+div.menu {
+  height: 100px;
+  font-size: 20px;
 }
+
+div.menu_gauche {
+  float: left;
+}
+
+div.menu_droite {
+  float: right;
+}
+
+img.logo {
+  height: 80px;
+  vertical-align: top;
+  margin: 10px;
+}
+
+div.menu_title {
+  display: inline-block;
+  margin: 40px 0 0 0;
+}
+
+div.menu_droite > ul {
+  list-style: none;
+  color: grey;
+}
+
+div.menu_droite > ul > li {
+  float: left;
+  margin: 19px 10px 0 10px;
+}
+
+
 
 /* line 59, /home/fsp/fsp/app/assets/stylesheets/application.scss */
 div.header {
