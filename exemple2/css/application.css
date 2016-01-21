@@ -294,7 +294,8 @@ table {
   width: 70%;
   margin: 0 auto;
   font-family: Arial;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.8);
+  border-collapse: collapse;
 }
 
 th {
@@ -309,4 +310,8 @@ th, td {
 
 tr.prix > td {
   font-size: 40px;
+}
+
+img.star2 {
+  width: 20px;
 }
