@@ -159,7 +159,7 @@ div.member_frame {
 
 img.member_photo {
   border: 2px white solid;
-  height:200px;
+  height: 200px;
   width: 200px;
   border-radius: 5px;
 }
@@ -247,7 +247,7 @@ a:active {
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
-  width: 50%;
+  width: 50vw;
 }
 
 .my_flex > div {
@@ -263,4 +263,10 @@ iframe.header {
 
 body.header {
   background: none;
+}
+
+iframe.footer {
+  width: 100%;
+  border: 0;
+  height: 130px;
 }
