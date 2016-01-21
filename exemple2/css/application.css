@@ -6,6 +6,9 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  
+  position: relative;
+  min-height: 100vh;
 }
 
 body.landing {
@@ -49,7 +52,7 @@ div.fsp_header_title {
   margin-top: 30px;
   margin-left: 7px;
   font-size: 20px;
-  font-style: bold;
+  font-weight: bold;
   color: white;
   display: inline-block;
 }
@@ -139,6 +142,7 @@ span.join_us {
 div.member_frame {
   display: inline-block;
   margin: 0 40px;
+  position: relative;
 }
 
 img.member_photo {
@@ -250,19 +254,19 @@ body.header {
 }
 
 body.footer {
-  background: black;
+  background: linear-gradient(rgba(0, 0, 0, 0), black);
 }
 
 iframe.footer {
   width: 100%;
   border: 0;
   height: 100px;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
 }
 main {
-  margin-bottom: 130px;
+  padding-bottom: 130px;
 }
 
 img.general_social_footer {
@@ -271,4 +275,38 @@ img.general_social_footer {
   margin-top: 12px;
   margin-bottom: 5px;
   height: 44px;
+}
+
+div.star {
+  text-align: center;
+  margin-top: 155px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+}
+
+div.star > img {
+  width: 40px;
+}
+
+table {
+  border: solid 1px white;
+  width: 70%;
+  margin: 0 auto;
+  font-family: Arial;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+th {
+  font-size: 30px;
+  font-family: 'Times new Roman';
+}
+
+th, td {
+  border: solid 1px white;
+  padding: 10px;
+}
+
+tr.prix > td {
+  font-size: 40px;
 }
